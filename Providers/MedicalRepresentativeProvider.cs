@@ -34,7 +34,7 @@ namespace AuthorizationMicroservice.Providers
             }
             catch(Exception e)
             {
-                logger.Error("Exception arised\n" + e.Message);
+                logger.Error("(In MedicalRepresentativeProvider.cs) Exception arised\n" + e.Message);
                 return false;
             }
         }

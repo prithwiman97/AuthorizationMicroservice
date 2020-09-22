@@ -34,7 +34,7 @@ namespace AuthorizationMicroservice.Repositories
                     logger.Info("List successfully fetched from Microservice");
                     return representativesList;
                 }
-                logger.Error("Server error "+response.StatusCode);
+                logger.Error("(In MedicalRepresentativeRepository.cs)Server error " + response.StatusCode);
                 return null;
             }
             catch

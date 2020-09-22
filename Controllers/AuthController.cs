@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AuthorizationMicroservice.JWT;
+﻿using AuthorizationMicroservice.JWT;
 using AuthorizationMicroservice.Models;
 using AuthorizationMicroservice.Providers;
-using AuthorizationMicroservice.Repositories;
 using log4net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
