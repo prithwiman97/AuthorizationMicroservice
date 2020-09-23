@@ -16,6 +16,11 @@ namespace AuthorizationMicroservice.JWT
         {
             Configuration = configuration;
         }
+
+        /// <summary>
+        /// Method for generating JWT
+        /// </summary>
+        /// <returns>Token in string format</returns>
         public string GenerateToken()
         {
             var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["TokenInfo:SecretKey"]));

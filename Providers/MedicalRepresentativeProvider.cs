@@ -1,4 +1,5 @@
-﻿using AuthorizationMicroservice.Models;
+﻿using AuthorizationMicroservice.Interfaces;
+using AuthorizationMicroservice.Models;
 using AuthorizationMicroservice.Repositories;
 using log4net;
 using System;
@@ -11,15 +12,19 @@ namespace AuthorizationMicroservice.Providers
     public class MedicalRepresentativeProvider
     {
         ILog logger = LogManager.GetLogger(typeof(MedicalRepresentativeProvider));
-        private readonly MedicalRepresentativeRepository repository;
-        public MedicalRepresentativeProvider(MedicalRepresentativeRepository repo)
+        private readonly IMedicalRepresentative repository;
+        public MedicalRepresentativeProvider(IMedicalRepresentative repo)
         {
             repository = repo;
         }
+
+        /// <summary>
+        /// Checks if credentials provided by user are correct
+        /// </summary>
+        /// <param name="representative"></param>
+        /// <returns>true for valid credentials and false for invalid credentials</returns>
         public bool Validate(MedicalRepresentative representative)
         {
-            if (string.IsNullOrEmpty(representative.Email) || string.IsNullOrEmpty(representative.Password))
-                return false;
             try
             {
                 IEnumerable<MedicalRepresentative> representativesList = repository.GetMedicalRepresentatives();
@@ -34,8 +39,8 @@ namespace AuthorizationMicroservice.Providers
             }
             catch(Exception e)
             {
-                logger.Error("(In MedicalRepresentativeProvider.cs) Exception arised\n" + e.Message);
-                return false;
+                logger.Error("Exception arised in "+nameof(MedicalRepresentativeProvider)+"\n" + e.Message);
+                throw e;
             }
         }
     }

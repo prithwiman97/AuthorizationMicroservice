@@ -1,3 +1,124 @@
 INFO  09:15:38 Application started. Press Ctrl+C to shut down.
 INFO  09:15:38 Hosting environment: Development
 INFO  09:15:38 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  10:29:53 Application started. Press Ctrl+C to shut down.
+INFO  10:29:53 Hosting environment: Development
+INFO  10:29:53 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  10:54:50 Application started. Press Ctrl+C to shut down.
+INFO  10:54:50 Hosting environment: Development
+INFO  10:54:50 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  11:15:38 Constructor Initialized
+INFO  11:15:42 List successfully fetched from Microservice
+INFO  11:15:42 Successfully logged in Prithwiman
+INFO  11:15:42 Token received
+INFO  12:32:41 Constructor Initialized
+INFO  12:32:41 List successfully fetched from Microservice
+INFO  12:32:41 Invalid Credentials
+ERROR 12:32:41 Unauthorized access
+INFO  12:35:04 Constructor Initialized
+INFO  12:35:05 List successfully fetched from Microservice
+INFO  12:35:05 Invalid Credentials
+ERROR 12:35:05 Unauthorized access
+INFO  12:37:16 Constructor Initialized
+INFO  12:37:16 List successfully fetched from Microservice
+INFO  12:37:16 Successfully logged in Prithwiman
+INFO  12:37:17 Token received
+INFO  12:37:29 Constructor Initialized
+INFO  12:37:29 List successfully fetched from Microservice
+INFO  12:37:29 Invalid Credentials
+ERROR 12:37:29 Unauthorized access
+INFO  12:38:26 Constructor Initialized
+INFO  12:38:26 List successfully fetched from Microservice
+INFO  12:38:26 Successfully logged in Prithwiman
+INFO  12:38:26 Token received
+INFO  12:45:35 Constructor Initialized
+INFO  12:45:35 List successfully fetched from Microservice
+INFO  12:45:35 Invalid Credentials
+ERROR 12:45:35 Unauthorized access
+INFO  12:45:50 Constructor Initialized
+INFO  12:45:50 List successfully fetched from Microservice
+INFO  12:45:50 Successfully logged in Prithwiman
+INFO  12:45:50 Token received
+INFO  09:58:30 Application started. Press Ctrl+C to shut down.
+INFO  09:58:30 Hosting environment: Development
+INFO  09:58:30 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  10:00:08 Constructor Initialized
+ERROR 10:00:08 Unauthorized access
+INFO  05:10:56 Application started. Press Ctrl+C to shut down.
+INFO  05:10:56 Hosting environment: Development
+INFO  05:10:56 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  11:02:58 Application started. Press Ctrl+C to shut down.
+INFO  11:02:58 Hosting environment: Development
+INFO  11:02:58 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  11:07:56 Application started. Press Ctrl+C to shut down.
+INFO  11:07:56 Hosting environment: Development
+INFO  11:07:56 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  11:25:46 Application started. Press Ctrl+C to shut down.
+INFO  11:25:46 Hosting environment: Development
+INFO  11:25:46 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  11:26:49 Constructor Initialized
+ERROR 11:26:56 (MedicalRepresentativeRepository) RepSchedule Microservice not responding One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 11:26:56 Exception arised in MedicalRepresentativeProvider
+One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 11:26:56 Unauthorized access
+INFO  11:30:15 Constructor Initialized
+INFO  11:30:17 List successfully fetched from Microservice
+INFO  11:30:17 Successfully logged in Prithwiman
+INFO  11:30:19 Token received
+INFO  11:43:56 Application started. Press Ctrl+C to shut down.
+INFO  11:43:56 Hosting environment: Development
+INFO  11:43:56 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  11:45:23 Constructor Initialized
+ERROR 11:45:28 (MedicalRepresentativeRepository) RepSchedule Microservice not responding One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 11:45:28 Exception arised in MedicalRepresentativeProvider
+One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 11:45:28 Internal server error in AuthController
+One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+INFO  11:46:52 Constructor Initialized
+INFO  11:47:03 Constructor Initialized
+INFO  11:47:03 Email or password is null
+INFO  11:48:11 Constructor Initialized
+INFO  11:48:11 Email or password is null
+INFO  11:48:33 Constructor Initialized
+INFO  11:48:33 Email or password is null
+INFO  11:48:48 Constructor Initialized
+ERROR 11:48:52 (MedicalRepresentativeRepository) RepSchedule Microservice not responding One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 11:48:52 Exception arised in MedicalRepresentativeProvider
+One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 11:48:52 Internal server error in AuthController
+One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+INFO  11:49:31 Constructor Initialized
+INFO  11:49:32 List successfully fetched from Microservice
+INFO  11:49:32 Invalid Credentials
+ERROR 11:49:32 Unauthorized access
+INFO  11:49:44 Constructor Initialized
+INFO  11:49:44 Email or password is null
+INFO  11:49:57 Constructor Initialized
+INFO  11:49:57 List successfully fetched from Microservice
+INFO  11:49:57 Invalid Credentials
+ERROR 11:49:57 Unauthorized access
+INFO  01:47:20 Application started. Press Ctrl+C to shut down.
+INFO  01:47:21 Hosting environment: Development
+INFO  01:47:21 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  01:49:56 Constructor Initialized
+INFO  01:49:58 List successfully fetched from Microservice
+INFO  01:49:58 Successfully logged in Prithwiman
+INFO  01:49:59 Token received
+INFO  01:50:11 Constructor Initialized
+INFO  01:50:11 List successfully fetched from Microservice
+INFO  01:50:11 Invalid Credentials
+ERROR 01:50:11 Unauthorized access
+INFO  01:50:22 Constructor Initialized
+INFO  01:50:22 Email or password is null
+INFO  01:50:44 Constructor Initialized
+INFO  01:50:44 Email or password is null
+INFO  01:51:04 Constructor Initialized
+INFO  01:51:04 Email or password is null
+INFO  01:51:17 Constructor Initialized
+INFO  01:51:17 Email or password is null
+INFO  01:51:53 Constructor Initialized
+ERROR 01:51:58 (MedicalRepresentativeRepository) RepSchedule Microservice not responding One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 01:51:58 Exception arised in MedicalRepresentativeProvider
+One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ERROR 01:51:58 Internal server error in AuthController
+One or more errors occurred. (No connection could be made because the target machine actively refused it.)

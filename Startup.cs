@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AuthorizationMicroservice.Interfaces;
 using AuthorizationMicroservice.Providers;
 using AuthorizationMicroservice.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -30,7 +31,7 @@ namespace AuthorizationMicroservice
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<MedicalRepresentativeRepository>();
+            services.AddScoped<IMedicalRepresentative,MedicalRepresentativeRepository>();
             services.AddScoped<MedicalRepresentativeProvider>();
             services.AddControllers();
             services.AddSwaggerGen();
