@@ -122,3 +122,10 @@ ERROR 01:51:58 Exception arised in MedicalRepresentativeProvider
 One or more errors occurred. (No connection could be made because the target machine actively refused it.)
 ERROR 01:51:58 Internal server error in AuthController
 One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+INFO  02:49:27 Application started. Press Ctrl+C to shut down.
+INFO  02:49:27 Hosting environment: Development
+INFO  02:49:27 Content root path: F:\MFPE\AuthorizationMicroservice
+INFO  02:50:24 Constructor Initialized
+INFO  02:50:32 List successfully fetched from Microservice
+INFO  02:50:32 Successfully logged in Prithwiman
+INFO  02:50:32 Token received

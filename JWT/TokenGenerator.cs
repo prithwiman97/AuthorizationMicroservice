@@ -32,7 +32,8 @@ namespace AuthorizationMicroservice.JWT
                 signingCredentials: credentials
             );
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            //return new JwtSecurityTokenHandler().WriteToken(token);
+            return token.ToString();
         }
     }
 }
